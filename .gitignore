@@ -1,0 +1,38 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+conda-env/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*~
+
+# Chroma Vector Database
+chroma_db/
+
+# Logs
+*.log
+logs/
+
+# Environment variables
+.env
+
+# macOS system files
+.DS_Store
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Large model files 
+*.bin
+*.safetensors
+*.gguf
